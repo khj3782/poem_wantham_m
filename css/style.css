@@ -1,6 +1,7 @@
 body{
   font-family: 'Nanum Myeongjo', serif;
   left:0;
+  padding:0;
   right:0;
   word-break:keep-all;
 }
@@ -14,28 +15,28 @@ li{
 .logo{
   background-color: black;
   -webkit-clip-path: polygon(61% 3%, 100% 55%, 55% 100%, 0 36%);
-  height:120vw;
+  height:110vw;
   position:absolute;
   text-align:center;
-  top:80px;
-  width:100%;
+  top:20vh;
+  width:98%;
 }
 .logo-title{
   background-color:white;
   color:black;
-  font-size:44px;
-  margin-left:20vw;
-  margin-top:40vw;
+  font-size:8vw;
+  margin-left:25vw;
+  margin-top:38vw;
   position:absolute;
   text-align:right;
 }
 .logo-subtitle{
   background-color:white;
   color:black;
-  font-size:5vw;
-  margin-left:120px;
-  margin-right:60px;
-  margin-top:55vw;
+  font-size:4vw;
+  margin-left:25vw;
+  margin-right:10vw;
+  margin-top:48vw;
   position:absolute;
   text-align:right;
 }
@@ -57,7 +58,7 @@ li{
   color:black;
   position:absolute;
   text-align:right;
-  width:100%;
+  width:98%;
   z-index:-1;
 }
 .menu-side{
