@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../poem.ico" type="image/x-icon" />
+    <meta charset="utf-8">
+    <meta name="author" content="시원함">
+    <meta name="description" content="시원함">
+    <title>시:읽기</title>
+  </head>
+  <body onload="menu_close()">
+    <a href="../index.html"><img src="../img/logo.png" / width="160px" style="position:absolute;"></a>
+    <div class="menu-bar">
+      <span class="menu-side" onclick="menu_open()">☰</span>
+    </div>
+    <nav class="menu">
+      <ul style="list-style:none;padding:0px;margin-top:50px;">
+        <li><a href="read.html">시 읽기</a></li>
+        <li><a href="buy.html">책 구매</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+      <div class="menu-close" onclick="menu_close()">닫기 X</div>
+    </nav>
+    <!--javascript-->
+    <script>
+      function menu_open(){
+        document.getElementsByClassName("menu")[0].style.display="block";
+      }
+      function menu_close(){
+        document.getElementsByClassName("menu")[0].style.display="none";
+      }
+    </script>
+  </body>
+</html>
