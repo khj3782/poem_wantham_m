@@ -10,7 +10,7 @@ a{
   text-decoration:none;
 }
 li{
-  margin:15px;
+  margin:40px;
 }
 .logo{
   background-color: black;
@@ -67,6 +67,6 @@ li{
 }
 .menu-side{
   cursor:pointer;
-  font-size:40px;
+  font-size:10vw;
   margin-right:20px;
 }
