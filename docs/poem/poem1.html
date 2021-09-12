@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="icon" href="../../poem.ico" type="image/x-icon" />
+    <meta property="og:title" content="시:원함">
+  	<meta property="og:description" content="문학 공유 플랫폼이자, 독립 출판사. 시원함은 모든 글을 사랑합니다.">
+  	<meta property="og:type" content="website">
+  	<meta property="og:image" content="../img/title.jpg">
+  	<meta property="og:url" content="https://khj3782.github.io/poem_wantham_m/">
+    <meta charset="utf-8">
+    <meta name="author" content="시원함">
+    <meta name="description" content="시원함">
+    <title>시:읽기</title>
+  </head>
+  <body onload="menu_close()">
+    <a href="../../index.html"><img src="../../img/logo.png" / width="160px" style="position:absolute;"></a>
+    <div class="menu-bar">
+      <span class="menu-side" onclick="menu_open()" style="font-size:44px;">☰</span>
+    </div>
+    <nav class="menu">
+      <ul style="list-style:none;padding:0px;margin-top:50px;">
+        <li><a href="../about.html">ABOUT US</a></li>
+        <li><a href="../read.html">시 읽기</a></li>
+        <li><a href="../buy.html">책 구매</a></li>
+      </ul>
+      <div class="menu-close" onclick="menu_close()" style="cursor:pointer">닫기 X</div>
+    </nav>
+    <!--javascript-->
+    <script>
+      function menu_open(){
+        document.getElementsByClassName("menu")[0].style.display="block";
+      }
+      function menu_close(){
+        document.getElementsByClassName("menu")[0].style.display="none";
+      }
+    </script>
+    <div class="content">
+      <div class="content-title">
+        <strong>당신의 이름을 지어다가 며칠은 먹었다</strong>
+      </div>
+      <div class="content-subtitle">
+        <em>박준</em>
+      </div>
+      <div class="content-main">
+        이상한 뜻이 없는 나의 생계는 간결할 수 있다 오늘 저녁부터 바람이 차가워진다거나
+        내일은 비가 올 거라 말해주는 사람들을 새로 사귀어야 했다<br /><br />
+        얼굴 한번 본 적 없는 이의 자서전을 쓰는 일은 그리 어렵지 않았지만
+        익숙한 문장들이 손목을 잡고 내 일기로 데려가는 것은 어쩌지 못했다<br /><br />
+        '찬비는 자란 물이끼를 더 자라게 하고 얻어 입은 외투의 색을 흰 속옷에 묻히기도 했다'
+        라고 그 사람의 자서전에 쓰고 나서 '아픈 내가 당신의 이름을 지어다가 며칠은 먹었다'라는 문장을
+        내 일기장에 이어 적었다<br /><br />
+        우리는 그러지 못했지만 모든 글의 만남은 언제나 아름다워야 한다는 마음이었다
+      </div>
+      <button onclick="location.href='../read.html'"><strong> ☰ &nbsp 목록</strong></button>
+      <hr style="height:1px; border:none; background-color:#D8D8D8; margin-bottom:40px;"/>
+    </div>
+  </body>
+</html>

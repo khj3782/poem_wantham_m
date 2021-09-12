@@ -1,41 +1,78 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="icon" href="../poem.ico" type="image/x-icon" />
-    <meta property="og:title" content="시:원함">
-  	<meta property="og:description" content="문학 공유 플랫폼이자, 독립 출판사. 시원함은 모든 글을 사랑합니다.">
-  	<meta property="og:type" content="website">
-  	<meta property="og:image" content="../img/title.jpg">
-  	<meta property="og:url" content="https://khj3782.github.io/poem_wantham_m/">
-    <meta charset="utf-8">
-    <meta name="author" content="시원함">
-    <meta name="description" content="시원함">
-    <title>시:읽기</title>
-  </head>
-  <body onload="menu_close()">
-    <a href="../index.html"><img src="../img/logo.png" / width="160px" style="position:absolute;"></a>
-    <div class="menu-bar">
-      <span class="menu-side" onclick="menu_open()" style="font-size:44px;">☰</span>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="icon" href="../poem.ico" type="image/x-icon" />
+  <meta property="og:title" content="시:원함">
+  <meta property="og:description" content="문학 공유 플랫폼이자, 독립 출판사. 시원함은 모든 글을 사랑합니다.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="../img/title.jpg">
+  <meta property="og:url" content="https://khj3782.github.io/poem_wantham_m/">
+  <meta charset="utf-8">
+  <meta name="author" content="시원함">
+  <meta name="description" content="시원함">
+  <title>시:읽기</title>
+</head>
+
+<body onload="menu_close()">
+  <a href="../index.html"><img src="../img/logo.png" / width="160px" style="position:absolute;"></a>
+  <div class="menu-bar">
+    <span class="menu-side" onclick="menu_open()" style="font-size:44px;">☰</span>
+  </div>
+  <nav class="menu">
+    <ul style="list-style:none;padding:0px;margin-top:50px;">
+      <li><a href="about.html">ABOUT US</a></li>
+      <li><a href="read.html">시 읽기</a></li>
+      <li><a href="buy.html">책 구매</a></li>
+    </ul>
+    <div class="menu-close" onclick="menu_close()" style="cursor:pointer">닫기 X</div>
+  </nav>
+  <!--javascript-->
+  <script>
+    function menu_open() {
+      document.getElementsByClassName("menu")[0].style.display = "block";
+    }
+
+    function menu_close() {
+      document.getElementsByClassName("menu")[0].style.display = "none";
+    }
+  </script>
+  <div class="content">
+    <div class="content-title">
+      <strong>시:읽기</strong>
     </div>
-    <nav class="menu">
-      <ul style="list-style:none;padding:0px;margin-top:50px;">
-        <li><a href="about.html">ABOUT US</a></li>
-        <li><a href="read.html">시 읽기</a></li>
-        <li><a href="buy.html">책 구매</a></li>
-      </ul>
-      <div class="menu-close" onclick="menu_close()" style="cursor:pointer">닫기 X</div>
-    </nav>
-    <!--javascript-->
-    <script>
-      function menu_open(){
-        document.getElementsByClassName("menu")[0].style.display="block";
-      }
-      function menu_close(){
-        document.getElementsByClassName("menu")[0].style.display="none";
-      }
-    </script>
-  </body>
+    <div class="content-subtitle">
+      <em>평범한 시인들의 이야기가 담긴 페이지 입니다.</em>
+    </div>
+    <div class="content-main">
+      <a href="poem/poem1.html">
+        <span class="poem-thumb">
+          <div class="frontground">
+            <div class="poem-info">
+              <div><strong>당신의 이름을 지어다가 며칠은 먹었다</strong></div><br />
+              <div>박준</div>
+            </div>
+          </div>
+          <img src="../img/title.jpg" / class="background">
+        </span>
+      </a>
+      <a href="poem/poem2.html">
+        <span class="poem-thumb">
+          <div class="frontground">
+            <div class="poem-info">
+              <div><strong>위대한 갯츠비</strong></div><br />
+              <div>F.스콧 피츠제럴드</div>
+            </div>
+          </div>
+          <img src="../img/example.jpg" / class="background">
+        </span>
+      </a>
+    </div>
+    <hr style="height:1px; border:none; background-color:#D8D8D8; margin-bottom:40px;" />
+  </div>
+</body>
+
 </html>
