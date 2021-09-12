@@ -28,7 +28,7 @@ button{
   border-radius:7px;
   font-family: 'Nanum Myeongjo', serif;
   margin-bottom:30px;
-  padding:5px;
+  padding:7px;
 }
 button:hover{
   background-color:gray;
