@@ -9,6 +9,12 @@ a{
   color:white;
   text-decoration:none;
 }
+hr{
+  background-color:#D8D8D8;
+  border:none;
+  height:1px;
+  margin-bottom:40px;
+}
 li{
   margin:40px;
 }
