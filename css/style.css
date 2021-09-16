@@ -1,6 +1,9 @@
 body{
+  background-color:black;
+  color:white;
   font-family: 'Nanum Myeongjo', serif;
   left:0;
+  margin:0;
   padding:0;
   right:0;
   word-break:keep-all;
@@ -35,7 +38,7 @@ button:hover{
   cursor:pointer;
 }
 .logo{
-  background-color: black;
+  background-color: white;
   -webkit-clip-path: polygon(61% 3%, 100% 55%, 55% 100%, 0 36%);
   height:105vw;
   left:0;
@@ -80,7 +83,7 @@ button:hover{
   font-size:16px;
 }
 .menu-bar{
-  color:black;
+  color:white;
   left:0;
   position:absolute;
   text-align:right;
