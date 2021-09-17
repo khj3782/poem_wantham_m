@@ -155,6 +155,9 @@ table{
   margin-right:auto;
   width:230px;
 }
+.poem{
+  text-align:left;
+}
 .linktree a{
   background-color:white;
   color:black;
