@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="icon" href="../../poem.ico" type="image/x-icon" />
+  <meta property="og:title" content="시:원함">
+  <meta property="og:description" content="문학 공유 플랫폼이자, 독립 출판사. 시원함은 모든 글을 사랑합니다.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="../img/title.jpg">
+  <meta property="og:url" content="https://khj3782.github.io/poem_wantham_m/">
+  <meta charset="utf-8">
+  <meta name="author" content="시원함">
+  <meta name="description" content="시원함">
+  <title>글</title>
+</head>
+
+<body onload="menu_close()">
+  <a href="../../index.html"><img src="../../img/logo3.png" / width="160px" style="position:absolute;"></a>
+  <div class="menu-bar">
+    <span class="menu-side" onclick="menu_open()" style="font-size:44px;">☰</span>
+  </div>
+  <nav class="menu">
+    <ul style="list-style:none;padding:0px;margin-top:50px;">
+      <li><a href="../../index.html">홈</a></li>
+      <li><a href="../about.html">소개</a></li>
+      <li><a href="../read.html">글</a></li>
+      <li><a href="../buy.html">도서</a></li>
+      <li><a href="../project.html">프로젝트</a></li>
+    </ul>
+    <div class="menu-close" onclick="menu_close()" style="cursor:pointer">닫기 X</div>
+  </nav>
+  <!--javascript-->
+  <script>
+    function menu_open() {
+      document.getElementsByClassName("menu")[0].style.display = "block";
+    }
+
+    function menu_close() {
+      document.getElementsByClassName("menu")[0].style.display = "none";
+    }
+  </script>
+  <div class="content">
+    <div class="content-title">
+      <strong>소묘</strong>
+    </div>
+    <div class="content-subtitle">
+      <em>유기농 호랑이 <a href="https://www.instagram.com/hwi_ponne/" style="background:white;color:black;" target="_blank">@hwi_ponne</a></em>
+    </div>
+    <hr style="height:1px; border:none; background-color:#D8D8D8; margin-bottom:40px;margin-top:40px;" />
+    <div class="content-main">
+      <img src="../../img/poem4.jpg" class="poem-img" />
+      <div class="poem">
+        소파에 가만히 앉아있다<br>
+        받는 이 없는 편지의 첫 소절을<br>
+        어떻게 시작해야할지 고민할 때<br>
+        언제쯤 내릴까 라고 묻는 말에<br>
+        이대로 조금이라도 더 가고 싶다고<br>
+        그렇게 하고 싶은 말이 떠올랐다<br>
+        명암이 진해져서<br>
+        우리의 색을 까먹고<br>
+        어느 누군가가 덮여지기 전까지<br>
+        숨을 가득 머금고 서로 죽기를 바라는 중이지만<br>
+        나아질 방법이 있지 않을까 하고<br>
+        먼저 입을 열었다<br>
+        돌아오는 것은 원색보다 짙은<br>
+        눈망울이 붉어지도록 하는<br>
+        감정 하나 없는 첫 소절<br>
+        이제서야 그동안 보냈던 감정에 대한<br>
+        화답이라고 생각했다
+      </div>
+    </div>
+    <button onclick="location.href='../read.html'" class="content-main"><strong> ☰ &nbsp 목록</strong></button>
+    <hr style="height:1px; border:none; background-color:#D8D8D8; margin-bottom:40px;" />
+  </div>
+</body>
+
+</html>

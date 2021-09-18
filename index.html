@@ -7,10 +7,10 @@
   <link rel="stylesheet" href="./css/style.css">
   <link rel="icon" href="poem.ico" type="image/x-icon" />
   <meta property="og:title" content="시:원함">
-	<meta property="og:description" content="문학 공유 플랫폼이자, 독립 출판사. 시원함은 모든 글을 사랑합니다.">
-	<meta property="og:type" content="website">
-	<meta property="og:image" content="./img/title.jpg">
-	<meta property="og:url" content="https://khj3782.github.io/poem_wantham_m/">
+  <meta property="og:description" content="문학 공유 플랫폼이자, 독립 출판사. 시원함은 모든 글을 사랑합니다.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="./img/title.jpg">
+  <meta property="og:url" content="https://khj3782.github.io/poem_wantham_m/">
   <meta charset="utf-8">
   <meta name="author" content="시:원함">
   <meta name="description" content="문학 공유 플랫폼이자, 독립 출판사. 시원함은 모든 글을 사랑합니다.">
@@ -34,11 +34,12 @@
   </nav>
   <!--javascript-->
   <script>
-    function menu_open(){
-      document.getElementsByClassName("menu")[0].style.display="block";
+    function menu_open() {
+      document.getElementsByClassName("menu")[0].style.display = "block";
     }
-    function menu_close(){
-      document.getElementsByClassName("menu")[0].style.display="none";
+
+    function menu_close() {
+      document.getElementsByClassName("menu")[0].style.display = "none";
     }
   </script>
 
@@ -50,28 +51,32 @@
 
   <!--firebase script-->
   <script type="module">
-  // Import the functions you need from the SDKs you need
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js";
-  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.0.2/firebase-analytics.js";
-  // TODO: Add SDKs for Firebase products that you want to use
-  // https://firebase.google.com/docs/web/setup#available-libraries
+    // Import the functions you need from the SDKs you need
+    import {
+      initializeApp
+    } from "https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js";
+    import {
+      getAnalytics
+    } from "https://www.gstatic.com/firebasejs/9.0.2/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
 
-  // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  const firebaseConfig = {
-    apiKey: "AIzaSyBXmJI3JVCZU_yKQZ2VezeCja-HSF0DWyA",
-    authDomain: "poem-wantham-b74f5.firebaseapp.com",
-    projectId: "poem-wantham-b74f5",
-    storageBucket: "poem-wantham-b74f5.appspot.com",
-    messagingSenderId: "595595113762",
-    appId: "1:595595113762:web:ca6ac9573665a876de217b",
-    measurementId: "G-BT8Y067YKD"
-  };
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyBXmJI3JVCZU_yKQZ2VezeCja-HSF0DWyA",
+      authDomain: "poem-wantham-b74f5.firebaseapp.com",
+      projectId: "poem-wantham-b74f5",
+      storageBucket: "poem-wantham-b74f5.appspot.com",
+      messagingSenderId: "595595113762",
+      appId: "1:595595113762:web:ca6ac9573665a876de217b",
+      measurementId: "G-BT8Y067YKD"
+    };
 
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
-</script>
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
 
 </body>
 
