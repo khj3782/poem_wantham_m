@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="icon" href="../../poem.ico" type="image/x-icon" />
+  <meta property="og:title" content="시:원함">
+  <meta property="og:description" content="문학 공유 플랫폼이자, 독립 출판사. 시원함은 모든 글을 사랑합니다.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="../img/title.jpg">
+  <meta property="og:url" content="https://khj3782.github.io/poem_wantham_m/">
+  <meta charset="utf-8">
+  <meta name="author" content="시원함">
+  <meta name="description" content="시원함">
+  <title>글</title>
+</head>
+
+<body onload="menu_close()">
+  <a href="../../index.html"><img src="../../img/logo3.png" / width="160px" style="position:absolute;"></a>
+  <div class="menu-bar">
+    <span class="menu-side" onclick="menu_open()" style="font-size:44px;">☰</span>
+  </div>
+  <nav class="menu">
+    <ul style="list-style:none;padding:0px;margin-top:50px;">
+      <li><a href="../../index.html">홈</a></li>
+      <li><a href="../about.html">소개</a></li>
+      <li><a href="../read.html">글</a></li>
+      <li><a href="../buy.html">도서</a></li>
+      <li><a href="../project.html">프로젝트</a></li>
+    </ul>
+    <div class="menu-close" onclick="menu_close()" style="cursor:pointer">닫기 X</div>
+  </nav>
+  <!--javascript-->
+  <script>
+    function menu_open() {
+      document.getElementsByClassName("menu")[0].style.display = "block";
+    }
+
+    function menu_close() {
+      document.getElementsByClassName("menu")[0].style.display = "none";
+    }
+  </script>
+  <div class="content">
+    <div class="content-title">
+      <strong>달을 바라보며 꿈을 꾸었다 말했고, 그녀는 달 위에서 노래했다고 답했지.</strong>
+    </div>
+    <div class="content-subtitle">
+      <em>하설 <a href="https://www.instagram.com/puisque.rien.ne.dure/" style="background:white;color:black;" target="_blank">@puisque.rien.ne.dure</a></em>
+    </div>
+    <hr style="height:1px; border:none; background-color:#D8D8D8; margin-bottom:40px;margin-top:40px;" />
+    <div class="content-main">
+      <img src="../../img/poem5.jpg" class="poem-img" />
+      <div class="poem">
+        내용
+      </div>
+    </div>
+    <button onclick="location.href='../read.html'" class="content-main"><strong> ☰ &nbsp 목록</strong></button>
+    <hr style="height:1px; border:none; background-color:#D8D8D8; margin-bottom:40px;" />
+  </div>
+</body>
+
+</html>
