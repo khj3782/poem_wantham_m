@@ -43,6 +43,21 @@ table{
   text-align:left;
   width:240px;
 }
+td{
+	height:30px;
+}
+.article-list{
+  text-align:center;
+}
+.no-contents{
+  color:gray;
+}
+.list-1{
+  width:20px;
+}
+.list-2{
+  width:220px;
+}
 .logo{
   background-color: white;
   -webkit-clip-path: polygon(61% 3%, 100% 55%, 55% 100%, 0 36%);
