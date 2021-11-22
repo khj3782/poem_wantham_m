@@ -19,3 +19,13 @@ function showDivs(n) {
   }
   x[slideIndex - 1].style.display = "block";
 }
+
+// 클립보드로 복사하는 기능을 생성
+function copyToClipboard(elementId) {
+  var aux = document.createElement("input");
+  aux.setAttribute("value", document.getElementById(elementId).innerHTML);
+  document.body.appendChild(aux);
+  aux.select();
+  document.execCommand("copy");
+  document.body.removeChild(aux);
+}

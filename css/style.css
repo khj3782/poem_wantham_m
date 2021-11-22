@@ -181,6 +181,19 @@ td{
   background-color:white;
   color:black;
 }
+.copy-button{
+  background-color:white;
+  border:2px solid white;
+  border-radius:7px;
+  font-family: 'Nanum Myeongjo', serif;
+  margin:5px;
+  padding:2px;
+}
+.copy-button:hover{
+  background-color:black;
+  color:white;
+}
+
 /*media query*/
 @media (min-width:700px) {
   .menu-side{
