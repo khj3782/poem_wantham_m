@@ -37,29 +37,27 @@ button:hover{
   background-color:gray;
   cursor:pointer;
 }
-table{
-  margin-left:auto;
-  margin-right:auto;
-  text-align:left;
-  width:240px;
-}
 td{
-	height:30px;
+	height:20px;
 }
 .home-img{
   position:absolute;
   width:160px;
 }
 .article-list{
+  margin-left:auto;
+  margin-right:auto;
   text-align:center;
 }
 .no-contents{
   color:gray;
 }
 .list-1{
+  height:30px;
   width:20px;
 }
 .list-2{
+  height:30px;
   width:220px;
 }
 .logo{
