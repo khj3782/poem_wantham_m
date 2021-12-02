@@ -120,6 +120,26 @@ td{
   font-size:44px;
   margin-right:20px;
 }
+.top-container{
+  position:relative;
+}
+.bottom-container{
+  position:relative;
+}
+.bottom-info{
+  color:#848484;
+  font-size:12px;
+  padding:20px;
+  position:absolute;
+  top:125vw;
+  width:400px;
+}
+@media(max-width:450px){
+  .bottom-info{
+    top:170vw;
+    width:250px;
+  }
+}
 .content{
   left:10vw;
   position:absolute;

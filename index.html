@@ -18,35 +18,69 @@
 </head>
 
 <body onload="menu_close()">
-  <a href="index.html"><img class="home-img" src="./img/logo3.png" width="40%" style="position:absolute;"></a>
-  <div class="menu-bar">
-    <span class="menu-side" onclick="menu_open()">☰</span>
+  <div class="top-container">
+    <a href="index.html"><img class="home-img" src="./img/logo3.png" width="40%" style="position:absolute;"></a>
+    <div class="menu-bar">
+      <span class="menu-side" onclick="menu_open()">☰</span>
+    </div>
+    <nav class="menu">
+      <ul style="list-style:none;padding:0px;margin-top:50px;">
+        <li><a href="index.html">홈</a></li>
+        <li><a href="docs/about.html">소개</a></li>
+        <li><a href="docs/read.html">글</a></li>
+        <li><a href="docs/buy.html">도서</a></li>
+        <li><a href="docs/project.html">프로젝트</a></li>
+      </ul>
+      <div class="menu-close" onclick="menu_close()" style="cursor:pointer">닫기 X</div>
+    </nav>
+    <!--javascript-->
+    <script>
+      function menu_open() {
+        document.getElementsByClassName("menu")[0].style.display = "block";
+      }
+
+      function menu_close() {
+        document.getElementsByClassName("menu")[0].style.display = "none";
+      }
+    </script>
+
+    <div class="logo">
+      <div class="logo-title">시:원함</div>
+      <br />
+      <div class="logo-subtitle">문학 공유 플랫폼 : 독립 출판사</div>
+    </div>
   </div>
-  <nav class="menu">
-    <ul style="list-style:none;padding:0px;margin-top:50px;">
-      <li><a href="index.html">홈</a></li>
-      <li><a href="docs/about.html">소개</a></li>
-      <li><a href="docs/read.html">글</a></li>
-      <li><a href="docs/buy.html">도서</a></li>
-      <li><a href="docs/project.html">프로젝트</a></li>
-    </ul>
-    <div class="menu-close" onclick="menu_close()" style="cursor:pointer">닫기 X</div>
-  </nav>
-  <!--javascript-->
-  <script>
-    function menu_open() {
-      document.getElementsByClassName("menu")[0].style.display = "block";
-    }
-
-    function menu_close() {
-      document.getElementsByClassName("menu")[0].style.display = "none";
-    }
-  </script>
-
-  <div class="logo">
-    <div class="logo-title">시:원함</div>
-    <br />
-    <div class="logo-subtitle">문학 공유 플랫폼 : 독립 출판사</div>
+  <div class="bottom-container">
+    <table class="bottom-info">
+      <tr>
+        <td>상호명</td>
+        <td>시:원함</td>
+      </tr>
+      <tr>
+        <td>대표자</td>
+        <td>이승환</td>
+      </tr>
+      <tr>
+        <td>주소</td>
+        <td>서울특별시 마포구 동교로8길 9, 502호(합정동, 위산빌라)</td>
+      </tr>
+      <tr>
+        <td>연락처</td>
+        <td>010-5777-5413</td>
+      </tr>
+      <tr>
+        <td>이메일</td>
+        <td>poemwantham@gmail.com</td>
+      </tr>
+      <tr>
+        <td>등록 번호</td>
+        <td>195-69-00305</td>
+      </tr>
+      <tr>
+        <td>이용 약관</td>
+        <td>내용 준비 중입니다</td>
+      </tr>
+    </table>
   </div>
 
   <!--firebase script-->
