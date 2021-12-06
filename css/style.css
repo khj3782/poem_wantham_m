@@ -229,4 +229,9 @@ td{
   .poem-img{
   width:500px;
   }
+  .poem{
+    margin-left:auto;
+    margin-right:auto;
+    width:500px;
+  }
 }
