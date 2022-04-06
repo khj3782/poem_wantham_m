@@ -1,88 +1,103 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../../css/style.css">
-    <link rel="icon" href="../../poem.ico" type="image/x-icon" />
-    <script src="https://kit.fontawesome.com/ca3835c383.js" crossorigin="anonymous"></script>
-    <meta property="og:title" content="시:원함">
-  	<meta property="og:description" content="문학 공유 플랫폼이자, 독립 출판사. 시원함은 모든 글을 사랑합니다.">
-  	<meta property="og:type" content="website">
-  	<meta property="og:image" content="../img/title.jpg">
-  	<meta property="og:url" content="https://khj3782.github.io/poem_wantham_m/">
-    <meta charset="utf-8">
-    <meta name="author" content="시원함">
-    <meta name="description" content="시원함">
-    <title>선택적 경험 부족자들을 위한 설명서</title>
-  </head>
-  <body onload="menu_close()">
-    <a href="../../index.html"><img src="../../img/logo3.png" / width="160px" style="position:absolute;"></a>
-    <div class="menu-bar">
-      <span class="menu-side" onclick="menu_open()" style="font-size:44px;">☰</span>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="icon" href="../../poem.ico" type="image/x-icon" />
+  <script src="https://kit.fontawesome.com/ca3835c383.js" crossorigin="anonymous"></script>
+  <meta property="og:title" content="시:원함">
+  <meta property="og:description" content="문학 공유 플랫폼이자, 독립 출판사. 시원함은 모든 글을 사랑합니다.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="../img/title.jpg">
+  <meta property="og:url" content="https://khj3782.github.io/poem_wantham_m/">
+  <meta charset="utf-8">
+  <meta name="author" content="시원함">
+  <meta name="description" content="시원함">
+  <title>살아있는 모든 것들은 다 사랑하라</title>
+</head>
+
+<body onload="menu_close()">
+  <a href="../../index.html"><img src="../../img/logo3.png" / width="160px" style="position:absolute;"></a>
+  <div class="menu-bar">
+    <span class="menu-side" onclick="menu_open()" style="font-size:44px;">☰</span>
+  </div>
+  <nav class="menu">
+    <ul style="list-style:none;padding:0px;margin-top:50px;">
+      <li><a href="../../index.html">홈</a></li>
+      <li><a href="../about.html">소개</a></li>
+      <li><a href="../buy.html">도서</a></li>
+      <li><a href="../project.html">프로젝트</a></li>
+    </ul>
+    <div class="menu-close" onclick="menu_close()" style="cursor:pointer">닫기 X</div>
+  </nav>
+  <!--javascript-->
+  <script>
+    function menu_open() {
+      document.getElementsByClassName("menu")[0].style.display = "block";
+    }
+
+    function menu_close() {
+      document.getElementsByClassName("menu")[0].style.display = "none";
+    }
+  </script>
+  <script type="text/javascript" src="../../script/script.js"></script>
+  <div class="content">
+    <div class="content-title">
+      <strong>살아있는 모든 것들은 다 사랑하라</strong>
     </div>
-    <nav class="menu">
-      <ul style="list-style:none;padding:0px;margin-top:50px;">
-        <li><a href="../../index.html">홈</a></li>
-        <li><a href="../about.html">소개</a></li>
-        <li><a href="../buy.html">도서</a></li>
-        <li><a href="../project.html">프로젝트</a></li>
-      </ul>
-      <div class="menu-close" onclick="menu_close()" style="cursor:pointer">닫기 X</div>
-    </nav>
-    <!--javascript-->
-    <script>
-      function menu_open(){
-        document.getElementsByClassName("menu")[0].style.display="block";
-      }
-      function menu_close(){
-        document.getElementsByClassName("menu")[0].style.display="none";
-      }
-    </script>
-    <script type="text/javascript" src="../../script/script.js"></script>
-    <div class="content">
-      <div class="content-title">
-        <strong>살아있는 모든 것들을 다 사랑하라</strong>
-      </div>
-      <div class="content-subtitle">
-        <em>시:원함</em>
-      </div>
-      <hr style="height:1px; border:none; background-color:#D8D8D8; margin-bottom:40px;margin-top:40px;"/>
-      <div class="content-main">
-        <img class="slide poem-img" src="../../img/book6.jpg"/>
-        <br />
-        <strong>구매 절차</strong><br /><br />
-        <div>
-          입금 후
-          <a href="https://www.instagram.com/poem_wantham/" target="_blank" style="background-color:white; color:black;">
-            시:원함 인스타그램</a> 메세지로  성함 / 연락처 /주소를 보내주세요.<br />
-          국민 <span id="text1">762301-04-304348</span>
-          <button class="copy-button" onclick="copyToClipboard('text1'); alert('클립보드에 복사되었습니다.');">
-            <strong><i class="fas fa-copy"></i></strong>
-          </button>
-          <br />
-          예금주 : 이승환(시:원함)<br />
-          도서 금액 : 10,000원<br />(택배비 4,000원 별도)<br /><br />
-        </div>
-      </div>
+    <div class="content-subtitle">
+      <em>시:원함</em>
+    </div>
+    <hr style="height:1px; border:none; background-color:#D8D8D8; margin-bottom:40px;margin-top:40px;" />
+    <div class="content-main">
+      <img class="slide poem-img" src="../../img/book6.jpg" />
+      <br />
       <div>
-        <hr>
-  			<table class="article-list">
-  				<tbody>
-  					<tr class="no-contents">
-  						<td class="list-1">▲</td>
-  						<td class="list-2">다음 글이 없습니다</td>
-  					</tr>
-  					<tr class="contents">
-  						<td class="list-1">▼</td>
-  						<td class="list-2"><a href="book5.html">선택적 경험 부족자들을 위한 설명서(천오름)</a></td>
-  					</tr>
-  				</tbody>
-  			</table>
-  		</div>
-      <button onclick="location.href='../buy.html'" class="content-main"><strong> ☰ &nbsp 목록</strong></button>
-      <hr style="height:1px; border:none; background-color:#D8D8D8; margin-bottom:40px;"/>
+        <em>도서 품절로 2주일간 (2022년 4월 7일 부터 21일까지) 예약판매를 진행합니다.</em><br /><br />
+
+        국민 <span id="text1">762301-04-304348</span> (시원함)
+        <button class="copy-button" onclick="copyToClipboard('text1'); alert('클립보드에 복사되었습니다.');">
+          <strong><i class="fas fa-copy"></i></strong>
+        </button>
+        <br /><br />
+        위의 계좌번호로 도서 비용 입금 후 (택배비 4천원 별도)<br /><br />
+
+        <a href="https://www.instagram.com/poem_wantham/" target="_blank" style="background-color:white; color:black;">
+        인스타그램<a/> 메세지로
+        <br /><br />
+
+        예약자 성함 :<br />
+        주소 :<br />
+        연락처 :<br />
+        구매 부수 :<br />
+        <br /><br />
+        을 보내주세요<br /><br />
+
+        예약 판매 일시가 마감된 후에 도서는 재인쇄에 들어가며<br />
+        택배 발송 까지 3-4주 가량 시간이 소요될 예정입니다
+      </div>
     </div>
-    <script type="text/javascript" src="../../script/script.js"></script>
-  </body>
+    <div>
+      <hr>
+      <table class="article-list">
+        <tbody>
+          <tr class="no-contents">
+            <td class="list-1">▲</td>
+            <td class="list-2">다음 글이 없습니다</td>
+          </tr>
+          <tr class="contents">
+            <td class="list-1">▼</td>
+            <td class="list-2"><a href="book5.html">선택적 경험 부족자들을 위한 설명서(천오름)</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <button onclick="location.href='../buy.html'" class="content-main"><strong> ☰ &nbsp 목록</strong></button>
+    <hr style="height:1px; border:none; background-color:#D8D8D8; margin-bottom:40px;" />
+  </div>
+  <script type="text/javascript" src="../../script/script.js"></script>
+</body>
+
 </html>
